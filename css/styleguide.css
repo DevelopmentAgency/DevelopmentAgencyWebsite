@@ -1,0 +1,28 @@
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 21px;
+  --font-size-m: 15px;
+  --font-size-xl: 22px;
+  --font-size-xxl: 23px;
+  --font-size-xxxl: 27px;
+  --font-size-xxxxl: 29px;
+  --font-size-xxxxxl: 74px;
+ 
+  --font-family-gilroy-light-regular: "Gilroy-Light-Regular";
+  --font-family-gilroy-light: "Gilroy-Light";
+  --font-family-gilroy-medium: "Gilroy-Medium";
+  --font-family-gilroy-regular: "Gilroy-Regular";
+  --font-family-gilroy-semibold: "Gilroy-SemiBold";
+  --font-family-gilroy-semibold-regular: "Gilroy-SemiBold-Regular";
+  --font-family-gilroy-thin-regular: "Gilroy-Thin-Regular";
+  --font-family-poppins: "Poppins";
+}
+
+.gilroy-light--normal-black-21px {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-light-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 100;
+}

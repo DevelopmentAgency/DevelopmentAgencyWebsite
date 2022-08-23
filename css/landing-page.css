@@ -1,0 +1,447 @@
+/* Floating animations setup */
+
+@keyframes float {
+	0% {
+		transform: translatey(0px) translatex(0px);
+	}
+	50% {
+		transform: translatey(-10px) translatex(5px);
+	}
+	100% {
+		transform: translatey(0px) translatex(0px);
+	}
+}
+
+@keyframes float-two {
+	0% {
+		transform: translatey(0px) translatex(0px);
+	}
+	50% {
+		transform: translatey(10px) translatex(-5px);
+	}
+	100% {
+		transform: translatey(0px) translatex(0px);
+	}
+}
+
+@keyframes float-three {
+	0% {
+		transform: translatey(0px) translatex(0px);
+	}
+	50% {
+		transform: translatey(12px) translatex(8px);
+	}
+	100% {
+		transform: translatey(0px) translatex(0px);
+	}
+}
+
+@keyframes float-four {
+	0% {
+		transform: translatey(0px) translatex(0px);
+	}
+	50% {
+		transform: translatey(15px) translatex(-10px);
+	}
+	100% {
+		transform: translatey(0px) translatex(0px);
+	}
+}
+
+@keyframes float-five {
+	0% {
+		transform: translatey(0px) translatex(0px);
+	}
+	50% {
+		transform: translatey(8px) translatex(-7px);
+	}
+	100% {
+		transform: translatey(0px) translatex(0px);
+	}
+}
+
+/* Initial layout - using Figma pixel spacing as a guide */
+
+.main {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  min-height: 1196px;
+  min-width: 1436px;
+  padding: 27px 45px;
+  width: 100%;
+}
+
+.main .inner-container {
+  height: 1096px;
+  min-width: 1346px;
+}
+
+.main .overlap-container {
+  height: 1011px;
+  left: 16px;
+  position: relative;
+  top: 49px;
+  width: 1356px;
+}
+
+.main .main-content {
+  height: 1011px;
+  left: 42px;
+  position: absolute;
+  top: 0;
+  width: 1314px;
+}
+
+.nav-item {
+  color: #000000;
+}
+
+.nav-item:visited {
+  color: #000000;
+}
+
+/* Specific class styling */
+
+.main .empty-button {
+  background: linear-gradient(180deg, rgba(248, 220, 224, 0.3) 0%, rgba(245, 221, 231, 0.3) 11.66%, rgba(239, 222, 239, 0.3) 24%, rgba(236, 223, 245, 0.3) 35.75%, rgba(230, 224, 254, 0.3) 47.94%, rgba(233, 223, 255, 0.3) 58.39%, rgba(236, 220, 253, 0.3) 69.13%, rgba(239, 218, 252, 0.3) 80.01%, rgba(243, 216, 251, 0.3) 89.74%, rgba(245, 214, 250, 0.3) 100%);
+  border-radius: 11px;
+  height: 64px;
+  left: 253px;
+  position: absolute;
+  top: 536px;
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.main .hero-title {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-semibold-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.37px;
+  line-height: 74px;
+  position: absolute;
+  top: 181px;
+  width: 589px;
+}
+
+.main .hero-subtitle {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-regular);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: -0.14px;
+  line-height: 30.2px;
+  position: absolute;
+  top: 430px;
+  width: 456px;
+}
+
+.main .feature-one {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 300;
+  left: 7px;
+  letter-spacing: -0.12px;
+  line-height: 25.8px;
+  position: absolute;
+  top: 778px;
+  width: 207px;
+}
+
+.main .feature-two {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 300;
+  left: 256px;
+  letter-spacing: -0.12px;
+  line-height: 25.8px;
+  position: absolute;
+  top: 776px;
+  width: 207px;
+}
+
+.main .feature-overlap-container {
+  height: 58px;
+  left: 9px;
+  position: absolute;
+  top: 817px;
+  width: 497px;
+}
+
+.main .feature-one-description {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 200;
+  left: 247px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.main .feature-two-description {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 200;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.main .nav-overlap-container {
+  height: 1011px;
+  left: 54px;
+  position: absolute;
+  top: 0;
+  width: 1260px;
+}
+
+.main .nav {
+  align-items: flex-end;
+  display: flex;
+  height: 47px;
+  left: 0;
+  min-width: 623px;
+  position: absolute;
+  top: 8px;
+}
+
+.main .agency-name {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-medium);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 43px;
+  width: 104px;
+}
+
+.main .services {
+  letter-spacing: 0;
+  margin-left: 30px;
+  min-height: 38px;
+  width: 107px;
+}
+
+.main .line-1 {
+  align-self: flex-start;
+  height: 37px;
+  margin-left: 6px;
+  width: 1px;
+}
+
+.main .case-studies {
+  letter-spacing: 0;
+  margin-left: 29px;
+  min-height: 38px;
+  width: 146px;
+}
+
+.main .line-2 {
+  align-self: flex-start;
+  height: 37px;
+  margin-left: 14px;
+  width: 1px;
+}
+
+.main .portfolio {
+  letter-spacing: 0;
+  margin-left: 31px;
+  min-height: 38px;
+  width: 146px;
+}
+
+.main .graphic-background {
+  align-items: flex-start;
+  background-image: url(../img/57-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 44px;
+  display: flex;
+  height: 1011px;
+  left: 615px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 619px;
+}
+
+.main .rectangle {
+  height: 1011px;
+  width: 619px;
+}
+
+.main .ornament-11 {
+  height: 300px;
+  left: 561px;
+  position: absolute;
+  top: 591px;
+  width: 292px;
+  transform: translatey(0px) translatex(0px);
+  animation: float-three 7s ease-in-out infinite;
+}
+
+.main .ornament-18 {
+  height: 70px;
+  left: 790px;
+  position: absolute;
+  top: 893px;
+  width: 164px;
+  transform: translatey(0px) translatex(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.main .ornament-20 {
+  height: 105px;
+  left: 748px;
+  position: absolute;
+  top: 86px;
+  width: 153px;
+  transform: translatey(0px) translatex(0px);
+  animation: float-two 6s ease-in-out infinite;
+}
+
+.main .ornament-17 {
+  height: 145px;
+  left: 546px;
+  position: absolute;
+  top: 244px;
+  width: 222px;
+  transform: translatey(0px) translatex(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.main .ornament-21 {
+  height: 33px;
+  left: 963px;
+  position: absolute;
+  top: 610px;
+  width: 294px;
+  transform: translatey(0px) translatex(0px);
+  animation: float-five 6s ease-in-out infinite;
+}
+
+.main .ornament-22 {
+  height: 102px;
+  left: 981px;
+  position: absolute;
+  top: 646px;
+  width: 262px;
+  transform: translatey(0px) translatex(0px);
+  animation: float-two 6s ease-in-out infinite;
+}
+
+.main .ornament-23 {
+  height: 88px;
+  left: 1089px;
+  position: absolute;
+  top: 681px;
+  width: 171px;
+  transform: translatey(0px) translatex(0px);
+  animation: float-four 6s ease-in-out infinite;
+  animation-delay: 1;
+}
+
+.main .ornament-12 {
+  height: 281px;
+  left: 979px;
+  position: absolute;
+  top: 195px;
+  width: 281px;
+  transform: translatey(0px) translatex(0px);
+  animation: float-four 6s ease-in-out infinite;
+  animation-delay: 0.5;
+}
+
+.main .get-in-touch-button {
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgb(248, 220, 224) 0%, rgb(245, 221, 231) 11.66%, rgb(239, 222, 239) 24%, rgb(236, 223, 245) 35.75%, rgb(230, 224, 254) 47.94%, rgb(233, 223, 255) 58.39%, rgb(236, 220, 253) 69.13%, rgb(239, 218, 252) 80.01%, rgb(243, 216, 251) 89.74%, rgb(245, 214, 250) 100%);
+  border-radius: 11px;
+  display: flex;
+  height: 64px;
+  left: 7px;
+  overflow: hidden;
+  padding: 19px 31px;
+  position: absolute;
+  top: 536px;
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.main .get-in-touch-text {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: -0.11px;
+  line-height: 24.6px;
+  min-height: 25px;
+  white-space: nowrap;
+  width: 138px;
+}
+
+.main .copyright {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-thin-regular);
+  font-size: var(--font-size-l);
+  left: 9px;
+  letter-spacing: -0.10px;
+  line-height: 23.5px;
+  position: absolute;
+  top: 975px;
+  width: 352px;
+}
+
+.main .copyright-text-span {
+  font-weight: 400;
+}
+
+.main .copyright-space-span {
+  font-family: var(--font-family-gilroy-semibold-regular);
+  font-weight: 400;
+}
+
+.main .agency-name-span {
+  font-family: var(--font-family-gilroy-light-regular);
+  font-weight: 400;
+}
+
+.main .identity {
+  height: 54px;
+  left: 2px;
+  position: absolute;
+  top: 705px;
+  width: 54px;
+}
+
+.main .logo {
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.main .icon-checkmark {
+  height: 46px;
+  min-width: 46px;
+}

@@ -1,0 +1,49 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400");
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Thin-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroy-Light-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gilroy-light.otf") format("opentype");
+}
+
+
+.container a {
+  display: contents;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
