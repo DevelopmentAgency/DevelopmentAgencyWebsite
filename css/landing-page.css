@@ -17,7 +17,7 @@
 		transform: translatey(0px) translatex(0px);
 	}
 	50% {
-		transform: translatey(10px) translatex(-5px);
+		transform: translatey(12px) translatex(7px);
 	}
 	100% {
 		transform: translatey(0px) translatex(0px);
@@ -110,7 +110,7 @@
   background: linear-gradient(180deg, rgba(248, 220, 224, 0.3) 0%, rgba(245, 221, 231, 0.3) 11.66%, rgba(239, 222, 239, 0.3) 24%, rgba(236, 223, 245, 0.3) 35.75%, rgba(230, 224, 254, 0.3) 47.94%, rgba(233, 223, 255, 0.3) 58.39%, rgba(236, 220, 253, 0.3) 69.13%, rgba(239, 218, 252, 0.3) 80.01%, rgba(243, 216, 251, 0.3) 89.74%, rgba(245, 214, 250, 0.3) 100%);
   border-radius: 11px;
   height: 64px;
-  left: 253px;
+  left: 230px;
   position: absolute;
   top: 536px;
   width: 200px;
@@ -217,7 +217,7 @@
   align-items: flex-end;
   display: flex;
   height: 47px;
-  left: 0;
+  left: 40px;
   min-width: 623px;
   position: absolute;
   top: 8px;
@@ -376,7 +376,7 @@
   border-radius: 11px;
   display: flex;
   height: 64px;
-  left: 7px;
+  left: -50px;
   overflow: hidden;
   padding: 19px 31px;
   position: absolute;
@@ -403,7 +403,7 @@
   color: var(--black);
   font-family: var(--font-family-gilroy-thin-regular);
   font-size: var(--font-size-l);
-  left: 9px;
+  left: -50px;
   letter-spacing: -0.10px;
   line-height: 23.5px;
   position: absolute;
@@ -427,7 +427,7 @@
 
 .main .identity {
   height: 54px;
-  left: 2px;
+  left: -48px;
   position: absolute;
   top: 705px;
   width: 54px;
@@ -442,6 +442,7 @@
 }
 
 .main .icon-checkmark {
+  top: 100px;
   height: 46px;
   min-width: 46px;
 }
