@@ -1,0 +1,519 @@
+.popup {
+    background-color: #ffffff;
+    display: flex;
+    height: 100vh;
+    min-height: 825px;
+    min-width: 1334px;
+    width: 100%;
+  }
+  
+  .popup .main-container {
+    display: flex;
+    flex-direction: column;
+    height: 663px;
+    margin-left: 425px;
+    margin-top: 81px;
+    width: 644px;
+  }
+  
+  .popup .close-btn {
+    height: 24px;
+    margin-left: 620px;
+    width: 24px;
+  }
+  
+  .popup .title-group {
+    display: flex;
+    flex-direction: column;
+    height: 104px;
+    margin-top: 4px;
+    width: 604px;
+  }
+  
+  .popup .page-heading {
+    color: transparent;
+    font-family: 'Gilroy-Regular';
+    font-size: 64px;
+    font-weight: 400;
+    height: 64px;
+    letter-spacing: -2.88px;
+    line-height: 64px;
+    text-align: center;
+    white-space: nowrap;
+    width: 600px;
+  }
+  
+  .popup .heading-text {
+    color: #28282f;
+  }
+  
+  .popup .heading-punc {
+    color: #ef8fff;
+  }
+  
+  .popup .page-subtitle {
+    height: 24px;
+    letter-spacing: -0.40px;
+    line-height: 24px;
+    margin-left: 78px;
+    margin-top: 16px;
+    text-align: center;
+    white-space: nowrap;
+    width: 443px;
+  }
+  
+  .popup .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 106px;
+    margin-top: 35px;
+    width: 387px;
+  }
+  
+  .popup .form-element {
+    display: flex;
+    width: 387px;
+    cursor: pointer;
+  }
+  
+  .popup .element-inner-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 389px;
+  }
+  
+  .popup .element-title {
+    letter-spacing: -0.35px;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .popup .box-shadow {
+    height: 90px;
+    left: 0;
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+    width: 386px;
+    transition: 0.5s;
+  }
+  /*
+  .popup .box-shadow-two {
+    height: 90px;
+    left: 0;
+    opacity: 0.25;
+    position: relative;
+    top: 0px;
+    width: 386px;
+  }
+  */
+  
+  .popup .box-shadow-message {
+    background-color: #c0acdb;
+    border-radius: 20px;
+    filter: blur(48px);
+    height: 200px;
+    left: 0;
+    opacity: 0.25;
+    position: relative;
+    top: 0;
+    width: 500px;
+  }
+  
+  .popup .overlap-group {
+    height: 80px;
+    margin-top: 12px;
+    position: relative;
+    width: 387px;
+    background-color: #ffffff;
+    border: 1px solid #e3e6e9;
+    border-radius: 16px;
+  }
+  
+  .popup .message-overlap-group {
+    height: 150px;
+    margin-top: 12px;
+    position: relative;
+    width: 387px;
+    background-color: #ffffff;
+    border: 1px solid #e3e6e9;
+    border-radius: 16px;
+  }
+  
+  .popup .overlap-group:hover {
+    height: 80px;
+    margin-top: 12px;
+    position: relative;
+    width: 387px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .popup .overlap-group:hover .box-shadow {
+    background-color: #c0acdb;
+    border-radius: 20px;
+    filter: blur(48px);
+    height: 90px;
+    left: 0;
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+    width: 386px;
+  }
+  
+  .popup .message-overlap-group:hover {
+    height: 150px;
+    margin-top: 12px;
+    position: relative;
+    width: 387px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .popup .message-overlap-group:hover .box-shadow {
+    background-color: #c0acdb;
+    border-radius: 20px;
+    filter: blur(48px);
+    height: 150px;
+    left: 0;
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+    width: 386px;
+  }
+  
+  .popup .overlap-group-1:hover .box-shadow-two {
+    background-color: #c0acdb;
+    border-radius: 20px;
+    filter: blur(48px);;
+    height: 90px;
+    left: 0;
+    opacity: 0.25;
+    position: relative;
+    top: 0px;
+    width: 386px;
+  }
+  
+  .popup .text-box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    height: 76px;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 385px;
+    transition: 0.5s;
+  }
+  
+  .popup .message-text-box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    height: 148px;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 385px;
+    transition: 0.5s;
+  }
+  
+  .popup .text-box-two {
+    background-color: #ffffff;
+    border-radius: 16px;
+    height: 72px;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 385px;
+  }
+  
+  .popup .input-field {
+    display: flex;
+    height: 24px;
+    left: 33px;
+    position: absolute;
+    top: 24px;
+    width: 325px;
+  }
+  
+  .popup .input-image {
+    height: 24px;
+    margin-top: 0.5px;
+    width: 24px;
+  }
+  
+  .popup .input-text-field {
+    color: #353434;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: -0.40px;
+    line-height: 24px;
+    margin-left: 16px;
+    white-space: nowrap;
+    width: 350px !important;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+  }
+  
+  .popup .input-text-area {
+    color: #353434;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    height: 100px;
+    letter-spacing: -0.40px;
+    line-height: 24px;
+    margin-left: 16px;
+    min-width: 300px;
+    border: none;
+    resize: none;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .popup .message-text-field {
+    color: #353434;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    height: 175px;
+    letter-spacing: -0.40px;
+    line-height: 24px;
+    margin-left: 16px;
+    white-space: nowrap;
+    width: 350px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+  }
+  
+  .popup .frame-255 {
+    display: flex;
+    height: 108px;
+    margin-top: 8px;
+    width: 387px;
+  }
+  
+  .popup .email {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 108px;
+    width: 389px;
+  }
+  
+  .popup .email-1 {
+    letter-spacing: -0.35px;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .popup .overlap-group-1 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #e3e6e9;
+    border-radius: 16px;
+    display: flex;
+    height: 72px;
+    margin-left: 1px;
+    margin-top: 12px;
+    width: 383px;
+    padding: 23px 31px;
+    cursor:pointer;
+  }
+  
+  .popup .overlap-group-1:hover {
+    border: none;
+    border-radius: 0;
+  }
+  
+  .popup .email-icon {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 24px;
+    min-width: 24px;
+  }
+  
+  .popup .union {
+    height: 12px;
+    width: 6px;
+  }
+  
+  .popup .subtract {
+    height: 12px;
+    margin-left: 2px;
+    width: 16px;
+  }
+  
+  .popup .email-address {
+    color: #353434;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.40px;
+    line-height: 24px;
+    margin-left: 16px;
+    min-height: 24px;
+    white-space: nowrap;
+    width: 350px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+  }
+  
+  .popup .frame-256 {
+    display: flex;
+    height: 166px;
+    margin-top: 16px;
+    width: 387px;
+  }
+  
+  .popup .message {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 166px;
+    width: 389px;
+  }
+  
+  .popup .message-1 {
+    letter-spacing: -0.35px;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .popup .overlap-group1 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #e3e6e9;
+    border-radius: 16px;
+    display: flex;
+    min-height: 175px;
+    margin-left: 1px;
+    margin-top: 12px;
+    width: 386px;
+    padding: 23px 31px;
+  }
+  
+  .popup .frame-3 {
+    align-items: flex-end;
+    display: flex;
+    height: 24px;
+    min-width: 24px;
+    padding: 2.4px 2px;
+  }
+  
+  .popup .overlap-group-2 {
+    align-items: flex-start;
+    background-image: url(../img/union-1@2x.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: 19px;
+    min-width: 20px;
+    padding: 4px 3px;
+  }
+  
+  .popup .exclude {
+    height: 6px;
+    width: 11px;
+  }
+  
+  .popup .message-2 {
+    letter-spacing: -0.40px;
+    line-height: 24px;
+    margin-left: 16px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .popup .submit-button {
+    align-items: center;
+    background-color: #e6e0fe;
+    border-radius: 20px;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    margin-top: 18px;
+    width: 175px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup .send-now {
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    height: 24px;
+    letter-spacing: -0.64px;
+    text-align: center;
+    width: 75px;
+  }
+  
+  .popup .overlap-group-message {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #e3e6e9;
+    border-radius: 16px;
+    display: flex;
+    height: 300px;
+    margin-left: 1px;
+    margin-top: 12px;
+    width: 300px;
+    padding: 23px 31px;
+  }
+  
+  .popup .overlap-group-message:hover {
+    height: 300px;
+    margin-top: 12px;
+    position: relative;
+    width: 387px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .popup .overlap-group:hover .box-shadow-message {
+    background-color: #c0acdb;
+    border-radius: 20px;
+    filter: blur(48px);
+    height: 90px;
+    left: 0;
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+    width: 386px;
+  }
+
+  .poppins-normal-santas-gray-16px {
+    color: #999fae;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-medium-shark-14px {
+    color: #27272e;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .gilroy-light--normal-black-21px {
+    color: #000000;
+    font-family: var(--font-family-gilroy-light);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+  }

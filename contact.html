@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1334, maximum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <title>Contact Us | Development Agency</title>
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <div class="popup container">
+      <div class="main-container">
+        <a href="index.html"><img class="close-btn" src="img/close@2x.png" /></a>
+        <div class="title-group">
+          <div class="page-heading"><span class="heading-text">Get in touch</span><span class="heading-punc">.</span></div>
+          <div class="page-subtitle poppins-normal-santas-gray-16px">Enter your details below</div>
+        </div>
+        <form action="https://formsubmit.co/oscar.frederiksen@me.com" method="POST" class="form">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/callback.html">
+          <div class="form-element">
+            <div class="element-inner-container">
+              <div class="element-title poppins-medium-shark-14px">Name</div>
+              <div class="overlap-group">
+                <div class="box-shadow"></div>
+                <div class="text-box"></div>
+                <div class="input-field">
+                  <img class="input-image" src="img/frame-1@2x.png" />
+                  <input type="text" class="input-text-field" name="Name" placeholder="Name" required></input>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="form-element">
+            <div class="element-inner-container">
+              <div class="element-title poppins-medium-shark-14px">Email</div>
+              <div class="overlap-group">
+                <div class="box-shadow"></div>
+                <div class="text-box"></div>
+                <div class="input-field">
+                  <div class="email-icon">
+                    <img class="union" src="img/union@2x.png" />
+                    <img class="subtract" src="img/subtract@2x.png" />
+                  </div>
+                  <input type="text" class="input-text-field" name="Email" placeholder="Email address" required></input>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="form-element">
+            <div class="element-inner-container">
+              <div class="element-title poppins-medium-shark-14px">Message</div>
+              <div class="message-overlap-group">
+                <div class="box-shadow"></div>
+                <div class="message-text-box"></div>
+                <div class="input-field">
+                  <img class="input-image" src="img/message@2x.png" />
+                  <textarea class="input-text-area" name="Message" placeholder="Message" wrap="on" required></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="submit-button" type="submit"><span class="send-now">Send now</span></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
