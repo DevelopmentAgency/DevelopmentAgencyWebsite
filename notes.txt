@@ -1,5 +1,8 @@
 - Fix for larger screen sizes (based on services page).
 - Fonts not loading on Adem's screen. (Check in meeting)
-- Addd images to the services page. (Done)
+
+- Add images to the services page. (Done)
 - Contact page not centered. (Done)
 - Add border radius to the bottom of the portfolio detail page. (Done)
+
+- Add the 'marshmallow' background to the rest of the pages.

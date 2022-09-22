@@ -4,6 +4,13 @@ body {
   background: url("../img/background@2x.jpg") no-repeat left top fixed; 
 }
 
+.container-center-horizontal {
+  display: flex;
+    flex-wrap: wrap; /* Optional. only if you want the items to wrap */
+    justify-content: center; /* For horizontal alignment */
+    align-items: center;
+}
+
 .portfolio-screen {
   align-items: center;
   /*background: linear-gradient(180deg, rgb(248, 220, 224) 0%, rgb(245, 221, 231) 11.66%, rgb(239, 222, 239) 24%, rgb(236, 223, 245) 35.75%, rgb(230, 224, 254) 47.94%, rgb(233, 223, 255) 58.39%, rgb(236, 220, 253) 69.13%, rgb(239, 218, 252) 80.01%, rgb(243, 216, 251) 89.74%, rgb(245, 214, 250) 100%);*/
