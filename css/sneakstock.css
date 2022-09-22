@@ -1,0 +1,649 @@
+/* screen - sneakstock-portfolio */
+
+.screen-container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sneakstock-portfolio {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2662px;
+  overflow: hidden;
+  padding: 0 36px;
+  width: 1440px;
+}
+
+  
+  .logo {
+    height: 47px;
+    width: 75px;
+  }
+  
+  .nav-group {
+    height: 943px;
+    margin-left: 30px;
+    margin-top: 50px;
+    position: relative;
+    width: 1260px;
+  }
+  
+  .nav {
+    align-items: flex-end;
+    display: flex;
+    height: 48px;
+    left: 100px;
+    min-width: 623px;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .agency-name {
+    color: #272424;
+    font-family: var(--font-family-gilroy-medium);
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 0;
+    min-height: 43px;
+    width: 104px;
+  }
+  
+  .services-link {
+    letter-spacing: 0;
+    margin-bottom: 2px;
+    margin-left: 30px;
+    min-height: 38px;
+    width: 107px;
+  }
+  
+  .line-1 {
+    align-self: flex-start;
+    height: 37px;
+    margin-left: 6px;
+    width: 1px;
+  }
+  
+  .surname {
+    letter-spacing: 0;
+    margin-bottom: 2px;
+    margin-left: 29px;
+    min-height: 38px;
+    width: 146px;
+  }
+  
+  .line-2 {
+    align-self: flex-start;
+    height: 37px;
+    margin-left: 14px;
+    width: 1px;
+  }
+  
+  .portfolio {
+    letter-spacing: 0;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    min-height: 38px;
+    width: 146px;
+  }
+
+.about-link {
+  display: inline-block;
+  position: relative;
+}
+
+.about-link::after {
+  content: '';
+  position: absolute;
+  width: 44%;
+  transform: scaleX(0);
+  top: 22px !important;
+  height: 2px;
+  left: 21px;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.about-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.services-link {
+  display: inline-block;
+  position: relative;
+}
+
+.services-link::after {
+  content: '';
+  position: absolute;
+  width: 54%;
+  transform: scaleX(0);
+  top: 22px !important;
+  height: 2px;
+  left: 2px;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.services-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.portfolio-link {
+  display: inline-block;
+  position: relative;
+}
+
+.portfolio-link::after {
+  content: '';
+  position: absolute;
+  width: 54%;
+  transform: scaleX(0);
+  top: 22px !important;
+  height: 2px;
+  left: -1px !important;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.portfolio-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.sneakstock-portfolio .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: #c1fe90;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  min-height: 2418px;
+  padding: 43.1px 43px;
+  width: 1360px;
+  margin-bottom: 100px;
+}
+
+.sneakstock-portfolio .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  min-height: 1125px;
+  width: 1260px;
+}
+
+.sneakstock-portfolio .sneakstock {
+  color: #12c902;
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  line-height: 63.4px;
+  margin-left: 7px;
+  min-height: 63px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .project-description {
+  color: #5c5c5c;
+  font-family: var(--font-family-gilroy-regular);
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.60px;
+  line-height: 36.8px;
+  margin-left: 7px;
+  margin-top: 6px;
+  min-height: 37px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .project-description-divider {
+  background-color: #2e2e2e;
+  background-image: url(../img/sneakstock-img.png);
+  background-size: 100% 100%;
+  border: 7px solid;
+  border-color: var(--black);
+  border-radius: 10px;
+  height: 629px;
+  margin-top: 68px;
+  width: 1253px;
+}
+
+.sneakstock-portfolio .project-about-heading {
+  letter-spacing: -0.19px;
+  line-height: 37.6px;
+  margin-left: 7px;
+  margin-top: 80px;
+  min-height: 38px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .project-main-description {
+  align-self: flex-end;
+  color: #202020;
+  font-family: var(--font-family-gilroy-medium);
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.60px;
+  line-height: 36.8px;
+  margin-top: 32px;
+  min-height: 74px;
+  width: 1253px;
+}
+
+.sneakstock-portfolio .team {
+  letter-spacing: -0.19px;
+  line-height: 37.6px;
+  margin-left: 7px;
+  margin-top: 60px;
+  min-height: 38px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .flex-row {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-left: 11px;
+  margin-top: 26px;
+  min-width: 693px;
+}
+
+.sneakstock-portfolio .bullet-point-3 {
+  background-color: var(--la-palma);
+  border: 1px none;
+  border-radius: 6px;
+  height: 12px;
+  margin-top: 2.0px;
+  width: 12px;
+}
+
+.sneakstock-portfolio .person {
+  letter-spacing: -0.12px;
+  line-height: 23.8px;
+  margin-left: 19px;
+  min-height: 24px;
+  min-width: 206px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .bullet-point {
+  background-color: var(--la-palma);
+  border: 1px none;
+  border-radius: 6px;
+  height: 12px;
+  margin-left: 32px;
+  margin-top: 2.0px;
+  width: 12px;
+}
+
+.sneakstock-portfolio .person-1 {
+  letter-spacing: -0.12px;
+  line-height: 23.8px;
+  margin-left: 19px;
+  min-height: 24px;
+  min-width: 203px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .person-2 {
+  letter-spacing: -0.12px;
+  line-height: 23.8px;
+  margin-left: 19px;
+  min-height: 24px;
+  min-width: 127px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .flex-col-2 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.0px;
+  margin-top: 60px;
+  min-height: 1030px;
+  width: 1249px;
+}
+
+.sneakstock-portfolio .process-heading {
+  align-self: flex-start;
+  letter-spacing: -0.19px;
+  line-height: 37.6px;
+  min-height: 38px;
+  white-space: nowrap;
+}
+
+.sneakstock-portfolio .process-graphic {
+  align-items: center;
+  background-color: #0d9201;
+  border-radius: 44px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+  min-height: 428px;
+  padding: 91px 0;
+  width: 1249px;
+}
+
+.sneakstock-portfolio .flex-row-1 {
+  align-items: center;
+  display: flex;
+  min-width: 1083px;
+}
+
+.sneakstock-portfolio .process-1 {
+  letter-spacing: -0.14px;
+  line-height: 27.7px;
+  min-height: 56px;
+  width: 309px;
+}
+
+.sneakstock-portfolio .arrow-1 {
+  height: 22px;
+  margin-bottom: 6.0px;
+  margin-left: 1px;
+  width: 32px;
+}
+
+.sneakstock-portfolio .process-overlap-group {
+  height: 56px;
+  margin-left: 44px;
+  position: relative;
+  width: 326px;
+}
+
+.sneakstock-portfolio .process-2 {
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: 27.7px;
+  position: absolute;
+  top: 0;
+  width: 309px;
+}
+
+.sneakstock-portfolio .arrow-2 {
+  height: 22px;
+  left: 294px;
+  position: absolute;
+  top: 14px;
+  width: 32px;
+}
+
+.sneakstock-portfolio .process-3 {
+  letter-spacing: -0.14px;
+  line-height: 27.7px;
+  margin-left: 62px;
+  min-height: 56px;
+  width: 309px;
+}
+
+.sneakstock-portfolio .arrow-5 {
+  align-self: flex-end;
+  height: 90px;
+  margin-right: 255.95px;
+  margin-top: 23px;
+  width: 22px;
+}
+
+.sneakstock-portfolio .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 22px;
+  min-width: 1083px;
+}
+
+.sneakstock-portfolio .overlap-group {
+  height: 56px;
+  position: relative;
+  width: 339px;
+}
+
+.sneakstock-portfolio .process-4 {
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: 27.7px;
+  position: absolute;
+  top: 0;
+  width: 309px;
+}
+
+.sneakstock-portfolio .arrow-4 {
+  height: 22px;
+  left: 308px;
+  position: absolute;
+  top: 13px;
+  width: 32px;
+}
+
+.sneakstock-portfolio .process-overlap-group-2 {
+  height: 56px;
+  margin-left: 47px;
+  position: relative;
+  width: 324px;
+}
+
+.sneakstock-portfolio .process-5 {
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: 27.7px;
+  position: absolute;
+  top: 0;
+  width: 309px;
+}
+
+.sneakstock-portfolio .arrow-3 {
+  height: 22px;
+  left: 292px;
+  position: absolute;
+  top: 13px;
+  width: 32px;
+}
+
+.sneakstock-portfolio .process-6 {
+  letter-spacing: -0.14px;
+  line-height: 27.7px;
+  margin-left: 64px;
+  min-height: 56px;
+  width: 309px;
+}
+
+.sneakstock-portfolio .project-navigation {
+  align-items: center;
+  display: flex;
+  margin-right: 4.0px;
+  margin-top: 83px;
+  min-width: 189px;
+}
+
+.sneakstock-portfolio .navigation-arrows {
+  align-items: flex-start;
+  display: flex;
+  height: 18px;
+  min-width: 178px;
+}
+
+.sneakstock-portfolio .last-project {
+  letter-spacing: -0.08px;
+  line-height: 17.9px;
+  min-height: 18px;
+  min-width: 37px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.sneakstock-portfolio .next-project {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.08px;
+  line-height: 17.9px;
+  margin-left: 48px;
+  min-height: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.sneakstock-portfolio .vector-1 {
+  height: 10px;
+  margin-left: 3px;
+  margin-top: 0.53px;
+  width: 9px;
+}
+
+.sneakstock-portfolio .cta-heading {
+  -webkit-text-stroke: 1px var(--black);
+  color: transparent;
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -0.40px;
+  line-height: 79.2px;
+  margin-right: 7.0px;
+  margin-top: 81px;
+  min-height: 158px;
+  text-align: center;
+  width: 1234px;
+}
+
+.sneakstock-portfolio .cta-subheading {
+  letter-spacing: -0.12px;
+  line-height: 23.8px;
+  margin-right: 5.0px;
+  margin-top: 25px;
+  min-height: 53px;
+  text-align: center;
+  width: 590px;
+}
+
+.sneakstock-portfolio .cta-button {
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgb(248, 220, 224) 0%, rgb(245, 221, 231) 11.66%, rgb(239, 222, 239) 24%, rgb(236, 223, 245) 35.75%, rgb(230, 224, 254) 47.94%, rgb(233, 223, 255) 58.39%, rgb(236, 220, 253) 69.13%, rgb(239, 218, 252) 80.01%, rgb(243, 216, 251) 89.74%, rgb(245, 214, 250) 100%);
+  border: none;
+  border-radius: 11px;
+  display: flex;
+  height: 60px;
+  margin-right: 5.0px;
+  margin-top: 25px;
+  overflow: hidden;
+  padding: 17.2px 22px;
+  width: 200px;
+}
+
+.sneakstock-portfolio .get-in-touch {
+  letter-spacing: -0.12px;
+  line-height: 26.9px;
+  margin-left: 12px;
+  min-height: 37px;
+  width: 144px;
+}
+
+.sneakstock-portfolio .copyright-text {
+  letter-spacing: -0.10px;
+  line-height: 23.5px;
+  margin-left: 58.0px;
+  margin-top: 107px;
+  min-height: 47px;
+  width: 352px;
+}
+
+.process-graphic-text {
+  color: var(--white);
+  font-family: var(--font-family-gilroy-medium);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nav-item {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-regular);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heading-text {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.subheading-text {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-medium);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cta-white-text {
+  color: var(--white);
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cta-cod-gray-text {
+  color: var(--cod-gray);
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.copyright-black-text {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-light);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cta-black-text {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-regular);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cta-button-text {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-regular);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 15px !important;
+}
+
+.copyright-text-space {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-semibold);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.copyright-name-text {
+  color: var(--black);
+  font-family: var(--font-family-gilroy-light);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,26 +1,19 @@
 .popup {
     background-color: #ffffff;
-    display: flex;
-    height: 100vh;
-    min-height: 825px;
-    min-width: 1334px;
-    width: 100%;
-  }
+}
   
-  .popup .main-container {
-    display: flex;
-    flex-direction: column;
-    height: 663px;
-    margin-left: 425px;
-    margin-top: 81px;
-    width: 644px;
-  }
+.popup .main-container {
+  position: absolute;
+  left: 15vw;
+  margin-left: 15vw;
+  margin-top: 100px !important;
+}
   
-  .popup .close-btn {
+.popup .close-btn {
     height: 24px;
     margin-left: 620px;
     width: 24px;
-  }
+}
   
   .popup .title-group {
     display: flex;

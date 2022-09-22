@@ -1,5 +1,12 @@
 :root { 
   --black: #000000;
+  --white: #ffffff;
+  --black-haze: #f6f6f6;
+  --cod-gray: #070707;
+  --licorice: #141414;
+  --eminence: #6c0f7f;
+  --la-palma: #3d8b00;
+
  
   --font-size-l: 21px;
   --font-size-m: 15px;
@@ -15,7 +22,8 @@
   --font-family-gilroy-regular: "Gilroy-Regular";
   --font-family-gilroy-semibold: "Gilroy-SemiBold";
   --font-family-gilroy-semibold-regular: "Gilroy-SemiBold-Regular";
-  --font-family-gilroy-thin-regular: "Gilroy-Thin-Regular";
+  --font-family-gilroy-regular-italic: "Gilroy-Regular-Italic";
+  --font-family-gilroy-thin: "Gilroy-Thin";
   --font-family-poppins: "Poppins";
 }
 
